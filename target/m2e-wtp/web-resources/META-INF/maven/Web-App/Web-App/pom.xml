@@ -7,15 +7,47 @@
   
   <dependencies>
   
-  <!-- Source: https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+  <!-- Source: https://mvnrepository.com/artifact/org.springframework/spring-webmvc 
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
     <version>7.0.5</version>
     <scope>compile</scope>
+</dependency>-->
+
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>6.1.6</version>
 </dependency>
-  
-  
+
+  	<dependency>
+  		<groupId>com.example</groupId>
+  		<artifactId>SpringBootDemo</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	
+  	
+  	<!-- Source: https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api -->
+<dependency>
+    <groupId>jakarta.servlet.jsp.jstl</groupId>
+    <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+    <version>3.0.2</version>
+    <scope>compile</scope>
+</dependency>
+  	
+  	
+  	<dependency>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
+        <version>6.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+  	
+  	
+  	
   </dependencies>
   
   
