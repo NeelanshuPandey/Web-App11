@@ -6,12 +6,9 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<body>
 
-<body bgcolor="pink">
+<h1>Welcome ! This is your cookie  ${cookie1}</h1>
 
-
-	<h1>Welcome ! This is your username  Mr. ${username}</h1>
-    <h2>This is your address :- ${address}</h2>
-    <h2> This is your  department:- ${department}</h2>
 </body>
 </html>
