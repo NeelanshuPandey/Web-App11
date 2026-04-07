@@ -10,8 +10,7 @@
 <body bgcolor="pink">
 
 
-	<h1>Welcome ! This is your username  Mr. ${username}</h1>
-    <h2>This is your address :- ${address}</h2>
-    <h2> This is your  department:- ${department}</h2>
+	<h1>Welcome ! This is your profile  Mr. ${user}</h1>
+
 </body>
 </html>
