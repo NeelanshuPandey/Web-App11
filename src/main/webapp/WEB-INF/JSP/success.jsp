@@ -9,10 +9,10 @@
 
 <body bgcolor="pink">
 
-
-	<h1>Welcome ! This is your profile :- Mr. ${username}</h1>
-    <h1>Welcome ! This is your department:- ${department}</h1>
-    <h1>Welcome ! This is your address:- ${address}</h1>
+     <h1>Welcome ! This is your profile :- Mr. ${employee.id}</h1>
+	<h1>Welcome ! This is your profile :- Mr. ${employee.username}</h1>
+    <h1>Welcome ! This is your department:- ${employee.department}</h1>
+    <h1>Welcome ! This is your address:- ${employee.address}</h1>
 
 
 </body>

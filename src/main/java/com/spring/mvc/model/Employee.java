@@ -4,6 +4,30 @@ public class Employee {
 
 	private String username,department,address;
 
+	int id;
+	
+	
+	
+	public int getId() {
+		return id;
+	}
+	
+	
+
+	public Employee(int id,String username, String department, String address ) {
+		super();
+		this.username = username;
+		this.department = department;
+		this.address = address;
+		this.id = id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getUsername() {
 		return username;
 	}
@@ -33,10 +57,15 @@ public class Employee {
 		// TODO Auto-generated constructor stub
 	}
 
+
+
 	@Override
 	public String toString() {
-		return "Employee [username=" + username + ", department=" + department + ", address=" + address + "]";
+		return "Employee [username=" + username + ", department=" + department + ", address=" + address + ", id=" + id
+				+ "]";
 	}
+
+	
 	
 	
 }
